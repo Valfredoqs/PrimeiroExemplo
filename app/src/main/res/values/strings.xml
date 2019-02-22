@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Primeiro Exemplo</string>
+    <string name="label_nome">Nome</string>
+    <string name="hint_nome">Digite seu nome</string>
+    <string name="text_telefone">Telefone</string>
+    <string name="hint_telefone">informe o telefone</string>
+    <string name="hint_email">Informe seu e-mail</string>
+    <string name="label_telefone">label_telefone</string>
+    <string name="hint_informe_seu_nome">hint_nome</string>
+    <string name="hint_informe_seu_telefone">label_telefone</string>
+    <string name="btn_add">Add</string>
+    <string name="hint_cliente">Cliente</string>
+    <string name="hint_valor">Valor</string>
+</resources>
