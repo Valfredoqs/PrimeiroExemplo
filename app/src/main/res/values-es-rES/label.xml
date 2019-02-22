@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
-
-<resources>
-<string name="app_name">Primeiro Exemplo</string>
-<string name="label_nome">Nombre</string>
-<string name="text_telefone">Telefono</string>
-<string name="text_email">email</string>
-</resources>

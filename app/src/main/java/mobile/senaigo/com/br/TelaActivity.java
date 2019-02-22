@@ -34,7 +34,7 @@ public class TelaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tela);
 
         txtValor = findViewById(R.id.txtValor);
-        txtCliente = findViewById(R.id.txtCliente);
+        txtCliente = findViewById(R.id.txtId);
         listView = findViewById(R.id.txtLista);
         listPedidos = new ArrayList<>();
     }
@@ -66,7 +66,7 @@ public class TelaActivity extends AppCompatActivity {
             aux.setCliente(txtCliente.getText().toString());
             aux.setValor(new BigDecimal(txtValor.getText().toString()));
             Random x = new Random();
-            aux.setId(x.nextLong(Long.valueOf(10000000000)));
+            aux.setId(x.nextLong());
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd//MM/yyyy");
             aux.setData(simpleDateFormat.format( new Date()));
             aux.setProdutos(new ArrayList<Produto>());
